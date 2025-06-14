@@ -35,11 +35,14 @@ namespace Exercise002
             }
         }
 
-        // Simulated method to fetch customer data (replace with DB in real project)
+        // Simulated method to fetch customer data 
         static List<Customer> GetCustomers()
         {
             return new List<Customer>
             {
+                new Customer { City = "Kathmandu", CompanyName = "Evergreen Mobile & Computer Parts" },
+                new Customer { City = "Kathmandu", CompanyName = "Dipu Enterprises" },
+                new Customer { City = "Kathmandu", CompanyName = "Dari Daiko chiya" },
                 new Customer { City = "London", CompanyName = "Around the Horn" },
                 new Customer { City = "London", CompanyName = "B's Beverages" },
                 new Customer { City = "London", CompanyName = "Consolidated Holdings" },
@@ -48,7 +51,7 @@ namespace Exercise002
                 new Customer { City = "London", CompanyName = "Seven Seas Imports" },
                 new Customer { City = "Paris", CompanyName = "Bon App'" },
                 new Customer { City = "Berlin", CompanyName = "Alfreds Futterkiste" }
-                // Add more for testing
+               
             };
         }
     }
